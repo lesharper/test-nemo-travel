@@ -1,0 +1,17 @@
+.container {
+    width: max-content;
+    max-width: 90vw;
+
+    overflow-x: scroll;
+
+    scrollbar-width: thin;
+}
+
+.container > tr, td {
+    border: 1px solid grey;
+
+    padding: 10px;
+
+    text-align: center;
+}
+
